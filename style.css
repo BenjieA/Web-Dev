@@ -1,0 +1,53 @@
+body {
+  background-color: silver;
+}
+h1 {
+  font-size: 100px;
+  background-color: #7FFFD4;
+  text-align:center;
+}
+p.b {
+  color:red;
+}
+pre {
+  font-family:courier;
+  text-align:center;
+}
+
+/*
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}*/
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
